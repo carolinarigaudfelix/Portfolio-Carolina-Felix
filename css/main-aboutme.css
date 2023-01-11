@@ -1,7 +1,8 @@
 @import url(style.css);
-
+  .horizontal_dotted_line{display: none;}
 
  .main-aboutme{
+  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +12,7 @@
     background-color: rgba(12, 12, 12, 0.13);
  }
  
+.aboutme-imageview{display:none}
 
 .aboutme-image{
   margin-top: 32px;
@@ -31,7 +33,6 @@
     height: 294px;
     justify-content: center;
     align-items: center;
-
 }
 
 .aboutme-title{
@@ -40,14 +41,14 @@
     flex-direction: column;
     font-family: Lato;
     font-weight: bold;
-    font-size:16px;
+    font-size:clamp(16px,5vw,24px);
 }
 
 .aboutme-content{
     color: var(--w-100);
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    font-size: clamp(16px,5vw,24px);
 
 }
 
@@ -98,7 +99,7 @@
 
   .vertical_dotted_line  p {
     color: var(--w-100);
-    font-size: 16px;
+    font-size: clamp(16px,5vw,24px);
     font-weight: bold;
   }
   
@@ -129,15 +130,15 @@
     position: relative;
     justify-content: center;
     text-align: center;
-    width: 175px;
-    height: 78px;
+    width: 208px;
+    height: 110px;
     margin-right: 62px;
     margin-left: 106px;
     font-family: Lato;
     color: var(--w-400);
     background-color: var(--b-400);
     border-radius: 8px;
-    font-size: 14px;
+    font-size: clamp(14px,5vw,20px);
     padding: 8px;
     
 }
@@ -152,15 +153,15 @@
     margin-left: 106px;
     justify-content: center;
     text-align: center;
-    width: 175px;
-    height: 67px;
-    top: 194px;
+    width: 208px;
+    height: 110px;
+    top: 154px;
     font-family: Lato;
     color: var(--w-400);
     background-color: var(--b-400);
     border-radius: 8px;
     border-radius: 15px;
-    font-size: 14px;
+    font-size: clamp(1px,5vw,24px);
     padding: 8px;
 }
 .faculdade p span{
@@ -175,8 +176,8 @@
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-bottom: 16px solid var(--b-400);
-    bottom: 26px; /*localização. Experimente alterar para 'bottom'*/
-    left: -9%;
+    bottom: 54px; /*localização. Experimente alterar para 'bottom'*/
+    left: -8%;
     transform: rotate(-90deg);
 }   
 
@@ -188,10 +189,26 @@
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-bottom: 16px solid var(--b-400);
-    bottom: 26px; /*localização. Experimente alterar para 'bottom'*/
-    left: -9%;
+    bottom: 54px; /*localização. Experimente alterar para 'bottom'*/
+    left: -8%;
     transform: rotate(-90deg);
 }   
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media screen and (min-width: 922px) and (max-width: 1200px){
+  .aboutme-image{display:none}
+  .aboutme-imageview{display: flex;}
+  .vertical_dotted_line{display: none;}
+
+}
+
+@media screen and (min-width: 1200px){
+  .aboutme-image{display:none}
+  .aboutme-imageview{display: flex;}
+
   
+} 
    

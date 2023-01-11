@@ -6,8 +6,7 @@
     align-items: center;  
     text-align: center;
     justify-content: center;  
-    font-family: Lato;
-    top: 150px;   
+    font-family: Lato; 
     height: 556px;
     width: 100%;
     background-image: url("../assets/circle-medium.svg");
@@ -29,19 +28,20 @@
 .main-section p {
     color:var(--w-400);
     text-align: center;
-    font-size: 22px;
+    font-size: clamp(16px, 2vw, 28px);
 
 }
 .main-section h1{
     text-align: center;
     font-weight: bold;
-    font-size: 38px;
+    font-size: clamp(38px, 6vw, 72px);
     color:var(--w-100);
+    margin-block: clamp(8px,4vh,12px);
 }
 .main-section h4{
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: clamp(20px, 4vw, 32px);
     color:var(--w-100);
 }
 
