@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="684" height="684" viewBox="0 0 684 684">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d847f7" stop-opacity="0.349"/>
+      <stop offset="1" stop-color="#d847f7" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#d847f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path id="Círculo_Médio" data-name="Círculo Médio" d="M342,0C530.881,0,684,153.119,684,342S530.881,684,342,684,0,530.881,0,342,153.119,0,342,0Z" opacity="0.57" fill="url(#radial-gradient)"/>
+</svg>

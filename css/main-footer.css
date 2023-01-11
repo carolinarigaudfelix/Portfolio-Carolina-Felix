@@ -1,0 +1,165 @@
+@import url(style.css);
+
+.main-footer{
+    display: block;
+    width: 100vw;
+}
+.footer_contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+.footer_img{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 250px;
+    margin-left: 84px;
+
+}
+.footer_img img{
+    width: 250px;
+    height: 250px;
+}
+
+.footer_forms{
+    height: 429px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato;
+    color: var(--w-100);
+    margin-bottom: 8px;
+
+}
+input::placeholder {
+    color: var(--w-100);
+  }
+
+
+
+
+
+input, textarea{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    outline: none;
+    border:0;
+    height: 32px;
+    resize: none;
+    color: #FFFFFF;
+}
+
+input::cue{
+    color: #CCCCCC;
+}
+fieldset{
+    border-radius: 8px;
+    padding: 8px;
+}
+input{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    padding: 4 8px;
+    font-size: 24px;
+}
+
+textarea{
+    position: relative;
+    height: 58px;
+    width: 100%;
+}
+
+/*TODO: ESTILIZAÇÃO SCROLL TEXTAREA */
+
+.container_button{
+    position: relative;
+    width: 192px;
+    height: 64px;
+    border-radius: 6px;
+    margin: 0 auto;
+    border: none;
+    background-color: #D847F7;
+    font-family: Lato;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo{
+    width: 420px;
+    outline: none;
+}
+
+
+.campo{
+    padding: 12px;
+    border: none;
+    display: block;
+}
+
+
+legend{
+    position: relative;
+    margin-left: 30px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.icons_contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    position:relative;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Lato;
+    font-size: 16px;
+    color: #F2F2F2;
+    margin: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.icons img{
+    margin: 5px;
+}
+
+.icons_line{
+    position: relative;
+    height: 100px;
+    border-right: 1px solid white;
+}
+
+textarea::-webkit-scrollbar{
+    width: 6px;
+}
+
+textarea::-webkit-scrollbar-track{
+    background-color: var(--p-300);
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: var(--w-100);
+    border-radius: 8px;
+}

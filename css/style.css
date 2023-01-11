@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+:root{ 
+    --b-500: #090C1A;
+    --b-400: #121526;
+    --b-300: #1E2133;
+    --b-200: #3E4259;
+    --b-100: #656980;
+    --w-500: #CCCCCC;
+    --w-400: #D9D9D9;
+    --w-300: #E6E6E6;
+    --w-200: #F2F2F2;
+    --w-100: #FFFFFF;
+    --p-100: #EA8AFF;
+    --p-200: #E670FF;
+    --p-400: #B73CD1;
+    --p-500: #9431AB;
+    --p-300: #D847F700;
+ }
+
+* {
+    font-family: Lato;
+    font-size:1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:  border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+body{
+    background-color: #1E2133;
+}
+

@@ -1,0 +1,97 @@
+
+:root{ 
+    --b-500: #090C1A;
+    --b-400: #121526;
+    --b-300: #1E2133;
+    --b-200: #3E4259;
+    --b-100: #656980;
+    --w-500: #CCCCCC;
+    --w-400: #D9D9D9;
+    --w-300: #E6E6E6;
+    --w-200: #F2F2F2;
+    --w-100: #FFFFFF;
+    --p-100: #EA8AFF;
+    --p-200: #E670FF;
+    --p-400: #B73CD1;
+    --p-500: #9431AB;
+    --p-300: #D847F700;
+ }
+
+
+@import url(style.css);
+
+.main-projects{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+    align-items: center;
+}
+
+
+
+
+.main-projects h4{
+    justify-content:center;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: bold;
+    color:var(--w-100);
+    display: flex;
+    gap: 6px;
+}
+
+.main-projects span{
+    color: var(--p-400);
+}
+.projects{
+    font-family: Lato;
+    color:var(--w-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+.projects p{
+    position: absolute;
+    font-size: 24px;
+    color: var(--w-100);
+    
+}
+
+.seta{
+   width: 20px;
+   height: 20px;
+}
+
+ .project-title{
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--w-100);
+    align-items: flex-start;
+
+ }
+ 
+.project-card{
+    object-fit: cover;  
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 16px 12px;
+    align-items: flex-end;
+    border-radius: 4px;
+    height: 160px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://img1.ak.crunchyroll.com/i/spire3/b7e6786f92cf6430accba76bf6ae87391641823596_full.jpg");
+}
+
+.project-card img{
+    color: var(--w-100);
+    
+}

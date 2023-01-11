@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167.618" height="167.618" viewBox="0 0 167.618 167.618">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d847f7" stop-opacity="0.349"/>
+      <stop offset="1" stop-color="#d847f7" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#d847f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path id="Círculo_pequeno" data-name="Círculo pequeno" d="M83.809,0A83.809,83.809,0,1,1,0,83.809,83.809,83.809,0,0,1,83.809,0Z" opacity="0.57" fill="url(#radial-gradient)"/>
+</svg>

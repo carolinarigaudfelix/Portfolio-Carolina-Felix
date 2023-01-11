@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1921" height="882" viewBox="0 0 1921 882">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_41" data-name="Retângulo 41" width="1921" height="882" transform="translate(0 129)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d847f7" stop-opacity="0.349"/>
+      <stop offset="1" stop-color="#d847f7" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#d847f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Imagem_1" data-name="Imagem 1" transform="translate(0 -129)" clip-path="url(#clip-path)">
+    <g id="Grupo_25" data-name="Grupo 25">
+      <path id="Caminho_1" data-name="Caminho 1" d="M342,0C530.881,0,684,153.119,684,342S530.881,684,342,684,0,530.881,0,342,153.119,0,342,0Z" transform="translate(1393 -195)" opacity="0.57" fill="url(#radial-gradient)"/>
+      <path id="Caminho_3" data-name="Caminho 3" d="M83.809,0A83.809,83.809,0,1,1,0,83.809,83.809,83.809,0,0,1,83.809,0Z" transform="translate(1752.382 598.619)" opacity="0.57" fill="url(#radial-gradient)"/>
+      <path id="Caminho_2" data-name="Caminho 2" d="M462.059,0C717.247,0,924.118,206.871,924.118,462.059S717.247,924.118,462.059,924.118,0,717.247,0,462.059,206.871,0,462.059,0Z" transform="translate(-397.118)" opacity="0.57" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+@import url(style.css);
+
+
+
+.main-header{
+    position: fixed;
+    font-family: Lato;
+    color: var(--w-100);
+    background-color: var(--b-400);
+    width: 100%;
+    padding: 24px;
+    z-index: 1;
+}
+
+.header-logo a{
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    font-size: clamp(24px, 5vw, 40px);
+    font-family: Lato;
+    font-weight: bold;
+    color:var(--w-100);
+    margin: clamp(2px, 5vw, 12px);
+    margin-left: 56px;
+}
+.header-logo  span{
+    color: var(--p-400);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+}
+
+@media screen and (min-width: 922px) and (max-width: 1200px){
+
+}
+
+@media screen and (min-width: 1200px){
+}
