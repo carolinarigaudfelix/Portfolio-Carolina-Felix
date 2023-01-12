@@ -164,3 +164,42 @@ textarea::-webkit-scrollbar-thumb{
     background-color: var(--w-100);
     border-radius: 8px;
 }
+
+
+@media screen and (min-width: 320px){
+    .footer_img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 250px;
+        margin-right: 0px;
+    }
+    fieldset{
+        border-radius: 8px;
+        padding: 8px;
+        width: 276px;
+    }
+    .footer_contatos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.13);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    fieldset{
+        border-radius: 8px;
+        padding: 8px;
+        width: 464px;
+    }
+    .campo{
+        padding: 18px;
+        border: none;
+        display: block;
+        outline: none;
+    }
+}

@@ -58,7 +58,7 @@
 }
 .projects p{
     position: absolute;
-    font-size: clamp(24px,vw,32px);
+    font-size:24px;
     color: var(--w-100);
     
 }
@@ -85,8 +85,8 @@
     padding: 16px 12px;
     align-items: flex-end;
     border-radius: 4px;
-    height: clamp(160px,5vw,190px);
-    width: clamp(400px,5vw,450px);
+    height: 160px;
+    width: 400px;
     background-position: center;
     background-size: cover;
     background-image: url("https://img1.ak.crunchyroll.com/i/spire3/b7e6786f92cf6430accba76bf6ae87391641823596_full.jpg");
@@ -96,4 +96,82 @@
     color: var(--w-100);
     
 }
+.main-projects h4{
+    justify-content:center;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: bold;
+    color:var(--w-100);
+    display: flex;
+    gap: 6px;
+    height: 44px;
+}
 
+
+@media screen and (min-width: 320px){
+    .project-card{
+        object-fit: cover;  
+        display: flex;
+        cursor: pointer;
+        justify-content: space-between;
+        padding: 16px 12px;
+        align-items: flex-end;
+        border-radius: 4px;
+        height: 160px;
+        width: 280px;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://img1.ak.crunchyroll.com/i/spire3/b7e6786f92cf6430accba76bf6ae87391641823596_full.jpg");
+    }
+
+    .main-projects h4{
+        justify-content:center;
+        font-size: 24px;
+        font-family: Lato;
+        font-weight: bold;
+        color:var(--w-100);
+        display: flex;
+        gap: 6px;
+        height: 44px;
+    }
+}
+  
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .main-projects h4{
+        justify-content:center;
+        font-size: 30px;
+        font-family: Lato;
+        font-weight: bold;
+        color:var(--w-100);
+        display: flex;
+        gap: 6px;
+        height: 44px;
+    }
+    .project-card{
+        object-fit: cover;  
+        display: flex;
+        cursor: pointer;
+        justify-content: space-between;
+        padding: 16px 12px;
+        align-items: flex-end;
+        border-radius: 4px;
+        height: 160px;
+        width: calc(min(400px,50vw));
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://img1.ak.crunchyroll.com/i/spire3/b7e6786f92cf6430accba76bf6ae87391641823596_full.jpg");
+    }
+    .project-card:hover{
+        transition: 0.3s;
+        transform: scale(1.1); 
+        opacity: 1;
+     }
+}
+  
+  @media screen and (min-width: 922px) and (max-width: 1200px){
+
+}
+  
+  @media screen and (min-width: 1200px){
+  
+} 

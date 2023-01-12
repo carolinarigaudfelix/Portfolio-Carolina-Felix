@@ -24,7 +24,7 @@
 }  
 
 .aboutme-image{
-  width: calc(min(359px,50vw));
+  width: calc(min(300px,50vw));
 }
 
 .aboutme-info{
@@ -45,14 +45,14 @@
     flex-direction: column;
     font-family: Lato;
     font-weight: bold;
-    font-size: calc(min(24px,50vw));
+    font-size: calc(min(22px,50vw));
 }
 
 .aboutme-content{
     color: var(--w-100);
     display: flex;
     flex-direction: column;
-    font-size: calc(min(24px,50vw));
+    font-size: calc(min(22px,50vw));
 }
 
 /* Linha */
@@ -144,9 +144,9 @@
     background-color: var(--b-400);
     border-radius: 8px;
     font-size: clamp(14px,5vw,20px);
-    padding: 8px;
-    
-}
+    padding: 8px;  
+  }
+
 .medio p span{
     color: var(--p-400);
 }
@@ -261,7 +261,140 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .vertical_dotted_line{display: flex;}
+  .medio:after{display: flex;}
+  .faculdade:after{display: flex;}
 
+  .aboutme-title{
+    color: var(--w-100);
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: calc(min(24px,50vw));
+  }
+  .aboutme-content{
+    color: var(--w-100);
+    display: flex;
+    flex-direction: column;
+    font-size: calc(min(24px,50vw));
+  }
+
+  .vertical_dotted_line{
+    position: relative;
+    content:"";
+    z-index: -1;
+    top: clamp(-14px,5vw,-24px);
+    left: -10%;
+    border-left: dashed 2px rgb(255, 255, 255) ;
+    height: 424px;
+    margin-top: calc(16px,50vh);
+  }
+
+  .container_line{
+    height: 58px;
+    top: 58px;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: clamp(-28px, 5vw, -28px);
+    background-color: var(--b-300);
+    gap: 8px;
+  }
+
+  .container_c2{
+    height: 78px;
+    top: 228px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Lato;
+    position: relative;
+    left: -86px;
+    background-color: var(--b-300);
+    gap: 8px;
+  }
+
+  .vertical_dotted_line  p {
+    color: var(--w-100);
+    font-size: clamp(16px,5vw,24px);
+    font-weight: bold;
+  }
+  
+  .ball{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: var(--p-500);
+    display: block;
+    padding: 4px;
+  }
+
+  .medio{
+    display: block;
+    top: 40px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: 208px;
+    height: 110px;
+    margin-right: 62px;
+    margin-left: 106px;
+    font-family: Lato;
+    color: var(--w-400);
+    background-color: var(--b-400);
+    border-radius: 8px;
+    font-size: clamp(14px,5vw,20px);
+    padding: 8px;  
+  }
+
+  .faculdade{
+    display: block;
+    position: relative;
+    margin-right: 62px;
+    margin-left: 106px;
+    justify-content: center;
+    text-align: center;
+    width: 208px;
+    height: 108px;
+    top: 100px;
+    font-family: Lato;
+    color: var(--w-400);
+    background-color: var(--b-400);
+    border-radius: 8px;
+    border-radius: 15px;
+    font-size: clamp(1px,5vw,20px);
+    padding: 8px;
+}
+  .medio:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid var(--b-400);
+    bottom: 54px; /*localização. Experimente alterar para 'bottom'*/
+    left: -6%;
+    transform: rotate(-90deg);
+  }   
+
+  .faculdade:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid var(--b-400);
+    bottom: 54px; /*localização. Experimente alterar para 'bottom'*/
+    left: -6%;
+    transform: rotate(-90deg);
+  }  
 }
 
 @media screen and (min-width: 922px) and (max-width: 1200px){
