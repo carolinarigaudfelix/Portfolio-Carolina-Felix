@@ -73,7 +73,7 @@
     }
 }
   
-  @media screen and (min-width: 768px) and (max-width: 992px) {
+  @media screen and (min-width: 768px){
     .languages_images{
         display:flex;
         flex-wrap: wrap;
@@ -95,8 +95,24 @@
   
 }
   
-  @media screen and (min-width: 922px) and (max-width: 1200px){
-
+  @media screen and (min-width: 992px){
+    .languages p{
+        color: var(--w-100);
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 32px;
+        align-items: center;  /*Alinha de forma Vertical*/
+        justify-content: center;  /*Alinha de forma Horizontal*/
+        position: relative;
+        text-align: center;
+    }
+    .languages_images{
+        display:flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        justify-content: center;
+        align-items: flex-start;
+    }
 }
   
   @media screen and (min-width: 1200px){

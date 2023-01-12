@@ -30,19 +30,21 @@
 
 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px){
     .header_txt{
-        gap: 28px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        max-width: 992px;
+        max-width: 900px;
+        gap:16px;
+        justify-content: space-between;
+
     }
     
     .header_txt a{
         color:var(--w-100);
         font:'Lato';
-        font-size: calc(min(22px,60vw));
+        font-size: calc(min(20px,60vw));
         padding: 40px 0px;
     }
     
@@ -58,16 +60,17 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-left: 24px;
+        width: 175px;
     }
     .header-logo a{
         position: relative;
         text-align: left;
         text-decoration: none;
-        font-size: 32px;
+        font-size: 30px;
         font-family: Lato;
         font-weight: bold;
         color:var(--w-100);
+        margin: 0 auto;
     }
     .header-logo  span{
         color: var(--p-400);
@@ -86,10 +89,29 @@
 
     .cabecalho{
         display: flex;
-        gap: 56px;
         flex-direction: row;
-        justify-content: space-between;
+        margin: 0 auto;
         align-items: center;
-        
+        width: 100%;
+        justify-content: space-between;
     }
 }
+@media screen and (min-width: 992px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .header_txt{
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
+    }
+}
+  
+  @media screen and (min-width: 1200px){
+  
+} 
