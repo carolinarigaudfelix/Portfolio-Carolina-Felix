@@ -41,10 +41,9 @@
 .languages_images{
     display:flex;
     flex-wrap: wrap;
-    gap: 76px;
+    gap: 72px;
     justify-content: center;
     align-items: flex-start;
-
 }
 
 .languages_images > div{
@@ -58,3 +57,4 @@
     display: flex;
     justify-content: center;
 }
+

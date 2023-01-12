@@ -1,8 +1,7 @@
 @import url(style.css);
-  .horizontal_dotted_line{display: none;}
+
 
  .main-aboutme{
-  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,19 +10,22 @@
     font-family: Lato;
     background-color: rgba(12, 12, 12, 0.13);
  }
- 
-.aboutme-imageview{display:none}
 
 .aboutme-image{
   margin-top: 32px;
   display: flex;
   position: relative;
-  width: 259px;
+  margin-bottom: 8px;
+
+  /* 259px */
   justify-content: center;
   align-items: center;
   text-align: center;
 }  
 
+.aboutme-image{
+  width: calc(min(359px,50vw));
+}
 
 .aboutme-info{
     display: flex;
@@ -35,21 +37,22 @@
     align-items: center;
 }
 
+
+
 .aboutme-title{
     color: var(--w-100);
     display: flex;
     flex-direction: column;
     font-family: Lato;
     font-weight: bold;
-    font-size:clamp(16px,5vw,24px);
+    font-size: calc(min(24px,50vw));
 }
 
 .aboutme-content{
     color: var(--w-100);
     display: flex;
     flex-direction: column;
-    font-size: clamp(16px,5vw,24px);
-
+    font-size: calc(min(24px,50vw));
 }
 
 /* Linha */
@@ -58,10 +61,11 @@
     position: relative;
     content:"";
     z-index: -1;
-    top: -32px;
+    top: clamp(-14px,5vw,-24px);
     left: 10%;
     border-left: dashed 2px rgb(255, 255, 255) ;
     height: 424px;
+    margin-top: calc(16px,50vh);
   }
 
 
@@ -75,7 +79,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    left: -20px;
+    left: clamp(-28px, 5vw, -28px);
     background-color: var(--b-300);
     gap: 8px;
   }
@@ -90,7 +94,7 @@
     flex-direction: column;
     font-family: Lato;
     position: relative;
-    left: -20px;
+    left: clamp(-28px, 5vw, -28px);
     background-color: var(--b-300);
     gap: 8px;
   }
@@ -123,6 +127,7 @@
 
   .aboutme-crono{
     display: flex;
+    margin-bottom: 16px;
   }
   .medio{
     display: block;
@@ -194,21 +199,95 @@
     transform: rotate(-90deg);
 }   
 
+@media screen and (min-width: 320px){
+  .medio:after{display: none;}
+  .faculdade:after{display: none;}
+  .vertical_dotted_line{display: none;}
+
+  .aboutme-title{
+    color: var(--w-100);
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: calc(min(18px,50vw));
+  }
+  .aboutme-content{
+    color: var(--w-100);
+    display: flex;
+    flex-direction: column;
+    font-size: calc(min(18px,50vw));
+  }
+
+  .medio{
+    display: block;
+    top: 24px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 208px;
+    height: 110px;
+    font-family: Lato;
+    color: var(--w-400);
+    background-color: var(--b-400);
+    border-radius: 8px;
+    font-size: clamp(14px,5vw,20px);
+    padding: 8px;
+    
+  }
+
+  .faculdade{
+    display: block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 208px;
+    height: 110px;
+    top: 54px;
+    font-family: Lato;
+    color: var(--w-400);
+    background-color: var(--b-400);
+    border-radius: 8px;
+    border-radius: 15px;
+    font-size: clamp(1px,5vw,24px);
+    padding: 8px;
+  }
+  .aboutme-crono{
+    display: flex;
+    margin-bottom: 96px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
 }
 
 @media screen and (min-width: 922px) and (max-width: 1200px){
-  .aboutme-image{display:none}
-  .aboutme-imageview{display: flex;}
-  .vertical_dotted_line{display: none;}
+  .main-aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: Lato;
+    background-color: rgba(12, 12, 12, 0.13);
+    height: 900px;
+ }
 
+ .vertical_dotted_line{
+    position: relative;
+    content:"";
+    z-index: -1;
+    top: clamp(-14px,5vw,-24px);
+    left: 10%;
+    border-left: dashed 2px rgb(255, 255, 255) ;
+    height: 424px;
+  }
 }
 
 @media screen and (min-width: 1200px){
-  .aboutme-image{display:none}
-  .aboutme-imageview{display: flex;}
 
-  
 } 
    
