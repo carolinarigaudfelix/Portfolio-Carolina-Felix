@@ -1,33 +1,16 @@
-:root {
-    --b-500: #090C1A;
-    --b-400: #121526;
-    --b-300: #1E2133;
-    --b-200: #3E4259;
-    --b-100: #656980;
-    --w-500: #CCCCCC;
-    --w-400: #D9D9D9;
-    --w-300: #E6E6E6;
-    --w-200: #F2F2F2;
-    --w-100: #FFFFFF;
-    --p-100: #EA8AFF;
-    --p-200: #E670FF;
-    --p-400: #B73CD1;
-    --p-500: #9431AB;
-    --p-300: #D847F700;
-}
-
-
 @import url(style.css);
 
 .main-projects {
     position: relative;
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 48px;
     justify-content: center;
     text-align: center;
     padding: 100px 0;
     align-items: center;
+    background-color: var(--b-400);
 }
 
 
@@ -75,7 +58,7 @@
     font-size: 24px;
     color: var(--w-100);
     align-items: flex-start;
-
+    margin: 0px;
 }
 
 .project-card {
@@ -222,22 +205,21 @@
 
 
  .project-title{
-    display: flex;
     font-family: Lato;
     font-weight: bold;
     font-size: 24px;
     color: var(--w-100);
-    margin-left:20px;
-    margin-bottom: 20px;
     opacity: 1;
+    margin: 0px;
+    text-align: start;
 
  }
  
 .project-card{
     transform-origin:top;
     transition: transform .3s; /* Animation */
-    width: 385px;
-    height: 449px;
+    width: 278px;
+    height: 378px;
     object-fit: cover;  
     display: flex;
     align-items: flex-end;
@@ -246,7 +228,7 @@
     border-radius: 4px;
     background-image: url("https://img1.ak.crunchyroll.com/i/spire3/b7e6786f92cf6430accba76bf6ae87391641823596_full.jpg");
 }
-.projects div:nth-child(odd){
+.projects>div:nth-child(odd){
     margin-top: 20px;
     padding-top: 20px;
 }

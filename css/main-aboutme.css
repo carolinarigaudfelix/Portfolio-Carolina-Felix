@@ -12,10 +12,10 @@
  }
 
 .aboutme-image{
-  margin-top: 32px;
   display: flex;
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
+  margin-top: 194px;
 
   /* 259px */
   justify-content: center;
@@ -23,8 +23,11 @@
   text-align: center;
 }  
 
+
+
+
 .aboutme-image{
-  width: calc(min(300px,50vw));
+  width: calc(min(324px,50vw));
 }
 
 .aboutme-info{
@@ -43,6 +46,7 @@
     color: var(--w-100);
     display: flex;
     flex-direction: column;
+    text-align: center;
     font-family: Lato;
     font-weight: bold;
     font-size: calc(min(22px,50vw));
@@ -53,6 +57,8 @@
     display: flex;
     flex-direction: column;
     font-size: calc(min(22px,50vw));
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 /* Linha */
@@ -160,13 +166,13 @@
     text-align: center;
     width: 208px;
     height: 110px;
-    top: 154px;
+    top: 108px;
     font-family: Lato;
     color: var(--w-400);
     background-color: var(--b-400);
     border-radius: 8px;
     border-radius: 15px;
-    font-size: clamp(1px,5vw,24px);
+    font-size: clamp(14px,5vw,20px);
     padding: 8px;
 }
 .faculdade p span{
@@ -258,12 +264,34 @@
     display: flex;
     margin-bottom: 96px;
   }
+  .data{
+    position: relative;
+    font-family: 'Lato';
+    color: var(--w-100);
+    justify-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .data-medio{
+    position: relative;
+    top: 16px;
+  }
+  .data-faculdade{
+    position: relative;
+    top: 48px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .vertical_dotted_line{display: flex;}
   .medio:after{display: flex;}
   .faculdade:after{display: flex;}
+  .data-medio{display: none;}
+  .data-faculdade{display: none;}
+  .data{display: none;}
 
   .aboutme-title{
     color: var(--w-100);
@@ -361,7 +389,7 @@
     text-align: center;
     width: 208px;
     height: 108px;
-    top: 100px;
+    top: 108px;
     font-family: Lato;
     color: var(--w-400);
     background-color: var(--b-400);
@@ -428,8 +456,8 @@
     height: 294px;
     justify-content: center;
     align-items: center;
+  
   }
-
 }
 
 @media screen and (min-width: 1200px){
@@ -437,7 +465,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
     height: 294px;
     justify-content: center;
     align-items: center;

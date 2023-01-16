@@ -3,6 +3,7 @@
 .main-footer{
     display: block;
     width: 100vw;
+    background-color: #1E2133;
 }
 .footer_contatos{
     display: flex;
@@ -12,7 +13,6 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.13);
 }
 
 .footer_img{
@@ -37,7 +37,7 @@
     align-items: center;
     font-family: Lato;
     color: var(--w-100);
-    margin-bottom: 8px;
+    margin-bottom: 40px;
 
 }
 input::placeholder {
@@ -187,7 +187,6 @@ textarea::-webkit-scrollbar-thumb{
         position: relative;
         align-items: center;
         justify-content: center;
-        background-color: rgba(0, 0, 0, 0.13);
     }
 }
 @media screen and (min-width: 768px) {
@@ -214,7 +213,7 @@ textarea::-webkit-scrollbar-thumb{
     .footer_img img{
         display: flex;
         width: 350px;
-        height: 250px;
+        height: 174px;
         justify-content: left;
     }
 
@@ -235,7 +234,7 @@ textarea::-webkit-scrollbar-thumb{
         align-items: center;
     }
     .campo{
-        padding: 24px;
+    
         border: none;
         display: block;
         outline: none;
@@ -249,4 +248,5 @@ textarea::-webkit-scrollbar-thumb{
         position:relative;
         margin-top: 32px;
     }
+
 } 

@@ -27,12 +27,14 @@
     padding: 0px;
     box-sizing:  border-box;
 }
-
+.espaco{
+    padding-block: 124px;
+}
 body, html{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    
+    scroll-behavior: smooth;
 }
 
 body{
