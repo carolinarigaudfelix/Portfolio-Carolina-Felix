@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-/* Versão Mobile First */
-
 :root{ 
     --b-500: #090C1A;
     --b-400: #121526;
@@ -36,7 +34,6 @@ body, html{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
 body{
     background-color: #1E2133;
 }

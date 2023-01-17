@@ -12,7 +12,6 @@
     background-color: var(--b-400);;
  }
 
- 
 .languages{
     display:flex;
     gap: 32px;
@@ -130,7 +129,3 @@
         align-items: center;
     }
 }
-  
-  @media screen and (min-width: 1200px){
-  
-} 

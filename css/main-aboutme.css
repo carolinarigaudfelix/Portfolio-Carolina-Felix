@@ -16,15 +16,10 @@
   position: relative;
   margin-bottom: 20px;
   margin-top: 194px;
-
-  /* 259px */
   justify-content: center;
   align-items: center;
   text-align: center;
 }  
-
-
-
 
 .aboutme-image{
   width: calc(min(324px,50vw));
@@ -33,14 +28,12 @@
 .aboutme-info{
     display: flex;
     flex-direction: column;
-    padding: 24px;
+    padding: 32px;
     width: 100%;
     height: 294px;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .aboutme-title{
     color: var(--w-100);
@@ -73,8 +66,6 @@
     margin-top: calc(16px,50vh);
   }
 
-
-  
   .container_line{
     height: 58px;
     top: 58px;
@@ -209,6 +200,15 @@
   .faculdade:after{display: none;}
   .vertical_dotted_line{display: none;}
 
+  .aboutme-image{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }  
   .aboutme-title{
     color: var(--w-100);
     display: flex;
@@ -292,6 +292,15 @@
   .data-faculdade{display: none;}
   .data{display: none;}
 
+  .aboutme-image{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 220px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }  
   .aboutme-title{
     color: var(--w-100);
     display: flex;
@@ -306,7 +315,7 @@
     flex-direction: column;
     font-size: calc(min(24px,50vw));
   }
-
+  
   .vertical_dotted_line{
     position: relative;
     content:"";
@@ -436,7 +445,15 @@
     background-color: rgba(12, 12, 12, 0.13);
     height: 900px;
  }
-
+  .aboutme-image{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 220px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }  
  .vertical_dotted_line{
     position: relative;
     content:"";
@@ -469,5 +486,14 @@
     justify-content: center;
     align-items: center;
   }
+  .aboutme-image{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 220px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }  
 } 
    

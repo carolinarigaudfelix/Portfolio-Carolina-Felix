@@ -40,9 +40,19 @@
     color: var(--p-400);
 }
 
-
 @media screen and (min-width: 320px){
     .header-icons{display: none;}
+    .header-icons{
+        display: flex;
+        width: 100px;
+        justify-content: center;
+        gap: 24px;
+    }
+    .header-icons img{
+        position: relative;
+        width: 25px;
+        height: 25px;
+    }
     
 }
 
