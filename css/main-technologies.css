@@ -35,7 +35,7 @@
 
 .languages img{
     width: 110px;
-    height: 230px;
+    height: 116px;
     display: flex;
 }
 
@@ -68,7 +68,7 @@
     .languages_images{
         display:flex;
         flex-wrap: wrap;
-        gap: 32px;
+        gap: 52px;
         justify-content: center;
         align-items: flex-start;
     }
