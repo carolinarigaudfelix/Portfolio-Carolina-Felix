@@ -58,6 +58,11 @@
     margin: 0px;
 }
 
+#project_1{
+    background-image: url("https://i.pinimg.com/564x/a7/56/74/a7567410c4260f5508ee4ba647909a85.jpg");
+}
+
+
 .project-card {
     object-fit: cover;
     display: flex;
@@ -223,7 +228,7 @@
     border-radius: 4px;
     background-image: url("https://img1.ak.crunchyroll.com/i/spire3/b7e6786f92cf6430accba76bf6ae87391641823596_full.jpg");
 }
-.projects>div:nth-child(odd){
+.margin-card{
     margin-top: 20px;
     padding-top: 20px;
 }
