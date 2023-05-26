@@ -58,6 +58,16 @@
     margin: 0px;
 }
 
+#project_1{
+    background-image: url("https://tinypic.host/images/2023/05/25/Calculadora.png");
+    background-size: cover;
+}
+
+#project_2{
+    background-image: url("https://tinypic.host/images/2023/05/26/Letefone.png");
+    background-size: cover;
+} 
+
 .project-card {
     object-fit: cover;
     display: flex;
@@ -223,7 +233,7 @@
     border-radius: 4px;
     background-image: url("https://img1.ak.crunchyroll.com/i/spire3/b7e6786f92cf6430accba76bf6ae87391641823596_full.jpg");
 }
-.projects>div:nth-child(odd){
+.margin-card{
     margin-top: 20px;
     padding-top: 20px;
 }
