@@ -25,6 +25,10 @@
     justify-content: center;
     gap: 32px;
 }
+.logo{
+    height: 64px;
+    width: 64px;
+}
 .header-logo a{
     position: relative;
     text-align: left;
@@ -35,6 +39,7 @@
     color:var(--w-100);
     margin: clamp(2px, 5vw, 12px);
     margin-left: 56px;
+    height: 100px;
 }
 .header-logo  span{
     color: var(--p-400);
